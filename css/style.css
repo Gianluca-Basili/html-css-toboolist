@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+/*inizio header*/
+.header{
+    padding: 20px;
+    background-color: white;
+}
+
+h1{
+    display: inline;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    vertical-align: 10px;
+    
+}
+/*fine header*/
+
+.contenitore{
+    border-radius: 10px;
+    margin: 70px;
+    padding: 50px;
+    padding-bottom: 15px;
+    background-color: white;
+    width: 92%;
+}
+
+#blue{
+    background-color: rgb(6, 185, 240);
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    padding:5px;
+    color: rgba(255, 255, 255, 0.918);
+    font-family: 'Josefin Sans', sans-serif;
+    border-color: rgb(6, 185, 240);
+}
+
+p{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 90px;
+    text-align: center;
+    padding: 4px;
+    display:inline-block
+    
+}
