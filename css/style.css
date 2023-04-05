@@ -1,8 +1,8 @@
 body{
     background-color: rgb(243, 243, 243);
     font-family: 'Josefin Sans', sans-serif;
-
 }
+
 
 
 *{
@@ -58,11 +58,32 @@ li{
     padding: 10px 0px;
     font-size: 20px;
 }
+
+.cerchio{
+border-radius: 100%;
+padding: 0px 2px;
+
+}
+
+.verde{
+    color: green;
+    border: 1px solid green;
+}
+
+.rosso{
+    color: red;
+    border: 1px solid red;
+}
+
+
+
 .blue{
     background-color: rgb(6, 185, 240);
     border: 0px;
     border-radius: 5px;
     display: inline-block;
+    padding: 6px;
+    color: white;
 }
     
 .white{
@@ -70,6 +91,8 @@ li{
     border: 1px solid grey;
     border-radius:5px;
     color: grey;
+    padding: 5px;
+    
 }
 
 
